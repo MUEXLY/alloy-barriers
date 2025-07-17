@@ -1,3 +1,4 @@
 numpy~=2.3.1
 matplotlib~=3.10.3
 ase~=3.25.0
+python-dotenv~=1.1.1

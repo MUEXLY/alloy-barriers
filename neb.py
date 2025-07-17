@@ -14,7 +14,6 @@ from ase.filters import UnitCellFilter
 from ase.geometry import find_mic
 from ase.io import write
 import numpy as np
-import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 
 
