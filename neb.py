@@ -31,6 +31,7 @@ def cantor_lammps() -> LAMMPS:
 
     return LAMMPS(files=lammps_files, **parameters)
 
+
 def iron_chrome_eam() -> EAM:
 
     return EAM(potential="FeCr.eam.alloy")
@@ -121,7 +122,6 @@ def main():
 
     print()
     np.savetxt("barriers.txt", np.concatenate((forward_barriers, backward_barriers)))
-
 
 
 if __name__ == "__main__":
